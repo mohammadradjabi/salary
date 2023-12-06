@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salary</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        <div>
+          <label for="name">Employee Name:</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label>Choose your Degree:</label>
+          <select name="degree" id="degree">
+            <option value="0">--Select a Degree--</option>
+            <option value="1">Diploma</option>
+            <option value="2">Bachelor</option>
+            <option value="3">Master</option>
+            <option value="4">PhD</option>
+          </select>
+        </div>
+        <div>
+          <span class="spd"></span>
+          <label for="commission">Commission:</label>
+          <input type="text" id="commission" />
+          <label class="percent">%</label>
+        </div>
+        <div>
+          <label for="hours">Hours Per Month:</label>
+          <input type="text" id="hours" />
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </div>
+      <div>
+        <h1 id="fullname"></h1>
+        <h1 id="salary"></h1>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
